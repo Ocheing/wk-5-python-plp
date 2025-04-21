@@ -1,8 +1,10 @@
 # wk-5-python-plp
-🦸‍♂️ Superhero and Polymorphism OOP Example 🦸‍♀️
+##🦸‍♂️ Superhero and Polymorphism OOP Example 🦸‍♀️
+---
 This repository contains two Python programming assignments that demonstrate key concepts of Object-Oriented Programming (OOP) using Superheroes 🦸‍♂️ and Polymorphism 🎭.
 
-🏗️ Assignment 1: Superhero Class with Inheritance
+##🏗️ Assignment 1: Superhero Class with Inheritance
+---
 This assignment involves creating a Superhero class with attributes such as name, alter ego, and superpower. The class uses inheritance to extend from a parent class called Superpower. The Superhero class overrides the use_power() method to implement specific behaviors for each superhero.
 
 🦸‍♂️ Superhero Class Example
@@ -21,7 +23,9 @@ Example Usage:
 hero1 = Superhero("Superman", "Super Strength", "Clark Kent")
 hero1.display_info()
 hero1.use_power()
-🚗 Activity 2: Polymorphism Challenge with Vehicles ✈️
+
+##🚗 Activity 2: Polymorphism Challenge with Vehicles ✈️
+---
 This activity demonstrates polymorphism by creating different vehicle classes (e.g., Car, Plane, Bike) that implement the same move() method differently. Each class overrides the move() method to define how the vehicle moves.
 
 🚗 Vehicle Classes:
@@ -37,7 +41,8 @@ vehicles = [Car(), Plane(), Bike()]
 
 for vehicle in vehicles:
     vehicle.move()  # Demonstrates polymorphism with different outputs
-⚙️ How to Run the Code
+##⚙️ How to Run the Code
+---
 1. Clone the repository:
 
 git clone https://github.com/yourusername/repository-name.git
